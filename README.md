@@ -302,6 +302,14 @@ Output files
 
 
 -----------
+Instructions to run
+------------
+> - Go to directory where .py file is pressent on any git bash/terminal shell
+> - Run below command
+	python<space><filename>.py <hit enter>
+	e.g. python ana_1.py
+
+-----------
 Glossary of some important terms used
 ------------
 > - Zipf's law: states that given a large sample of words used, the frequency of any word is inversely proportional to its rank in the frequency table
