@@ -89,16 +89,14 @@ Cleaning, Storing Data (in .csv format) and Data Exploration
 > - Displayed value counts for critics pick, mpaa rating , movie month , movie year
 > - Checked number of null values present in dataframe (found that date_updated, summary_short, opening_date has some null values. We handle those if we require those columns during analysis. As of now it is fine)
 > - Plotted graphs for mpaa_rating, critics_pick and publication date of reviews 
-
-**Plots**
-![Distribution_of_mpaa_rating1](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating1.png)
+>     - ![Distribution_of_mpaa_rating1](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating1.png)
 >	 - ![Distribution_of_mpaa_rating2](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating2.png)
 >	 - ![critic_pick_value_count](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/critic_pick_value_count.png)
 >	 - ![Review_count_pubicationdates](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Review_count_pubicationdates.png)
 > - Defined a function "create_directory_for_output" to create output directory to save output files in .png format
 > - Saved those graphs in output folder ```./exploratory_analysis```
 
-
+<*P.S. with each analysis there are plots associated with it. Please click on link to view it in other window*>
 -----------
 Data Analysis - 1 - Zipf's Law on summaries column of movie reviews - do the words used there follow Zipf's Law?
 ------------
