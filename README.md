@@ -302,7 +302,7 @@ Output files
 
 
 -----------
-Instructions to run
+Instructions to run .py files
 ------------
 > - Go to directory where .py file is pressent on any git bash/terminal shell
 > - Run below command
