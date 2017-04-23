@@ -3,42 +3,39 @@ Final submission : Name- Vaishali Lambe : NUID-001286444
 -----------
 Synopsis
 ------------
-I have chosen second pattern which downloads data from from NYTimes developer portal (movie reviews API), stores it and performs 3 analyses.
+I have chosen second pattern which downloads data from from NYTimes developer portal (movie reviews API), stores it and performs 3 analysis.
 ```final``` folder contains the the following files for final exam submission
 
 -----------
 Folder structure and locations for each file 
 ------------
-> - Data collection and storage script location
->```final/data_collection_storage_moviereviews.ipynb and final/data_collection_storage_moviereviews.py```  file to collect data and store it in a proper directory (folder) structure from NYTimes developer portal of movie reviews API 
+> - Data collection and storage script location:
+>  ```final/data_collection_storage_moviereviews.ipynb and final/data_collection_storage_moviereviews.py```  file to collect data and store it in a proper directory (folder) structure from NYTimes developer portal movie reviews API 
 
-> - Raw data storage location
+> - Raw data storage location:
 >  ```final/data/raw_data/movie_reviews``` contains all JSON files for movie_reviews
 
-> - Cleaned data storage location
->  ```final/data/cleaned_data``` contains cleaned data in **movie_reviews.csv** file format which is ready for analysis
-
-> - Data analysis location
->  ```final/analysis``` *.ipynb*  and *.py* files for analysis 1, 2 and 3 as ana_1, ana_2, ana_3 
-
-> - Data collection and storage script file location
->  ```final/data_collection_storage_moviereviews.ipynb and final/data_collection_storage_moviereviews.py``` script for data collection and storage
-
-> - Data cleaning and storing script file location
+> - Data cleaning and storing script file location:
 >  ```final/data_cleaning_exploration_moviereviews.ipynb and final/data_cleaning_exploration_moviereviews.py``` script for cleaning data and storing it in .csv format. Also perform some exploratory analysis on cleaned data to verify
 
-> - Analysis 1 script file location
->  ```final/analysis/ana_1.ipynb and final/ana_1.py``` script for analysis 1
+> - Cleaned data storage location:
+>  ```final/data/cleaned_data``` contains cleaned data in **movie_reviews.csv** file format which is ready for analysis
 
-> - Analysis 2 script file location
->  ```final/analysis/ana_2.ipynb and final/ana_2.py``` script for analysis 2
+> - Data analysis location:
+>  ```final/analysis``` *.ipynb*  and *.py* files for analysis 1, 2 and 3 as ana_1, ana_2, ana_3 
 
-> - Analysis 3 script file location
->  ```final/analysis/ana_3.ipynb and final/ana_3.py``` script for analysis 3
+> - Analysis 1 script file location:
+>  ```final/analysis/ana_1.ipynb and final/analysis/ana_1.py``` script for analysis 1
 
-> - Output files
+> - Analysis 2 script file location:
+>  ```final/analysis/ana_2.ipynb and final/analysis/ana_2.py``` script for analysis 2
+
+> - Analysis 3 script file location:
+>  ```final/analysis/ana_3.ipynb and final/analysis/ana_3.py``` script for analysis 3
+
+> - Output files location:
 >  ```final/analysis/ana[1-3]``` contains all the outputs in *.png* format and .csv format for analysis 1, analysis 2 and analysis 3
->  ```final/exploratory_analysis``` contains graphs plotted for exploratory analysis
+>  ```final/exploratory_analysis``` contains graphs plotted for exploratory analysis in .png format
 
 
 -----------
@@ -90,10 +87,10 @@ Cleaning, Storing Data (in .csv format) and Data Exploration
 > - Displayed value counts for critics pick, mpaa rating , movie month , movie year
 > - Checked number of null values present in dataframe (found that date_updated, summary_short, opening_date has some null values. We handle those if we require those columns during analysis. As of now it is fine)
 > - Plotted graphs for mpaa_rating, critics_pick and publication date of reviews 
-    ![mpaa_rating1](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating1.png)
-	![mpaa_rating2](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating2.png)
-	![critics_pick](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating1.png)
-	![publication_date](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating1.png)
+     - ![Distribution_of_mpaa_rating1](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating1.png)
+	 - ![Distribution_of_mpaa_rating2](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating2.png)
+	 - ![critic_pick_value_count](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/critic_pick_value_count.png)
+	 - ![Review_count_pubicationdates](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Review_count_pubicationdates.png)
 > - Defined a function "create_directory_for_output" to create output directory to save output files in .png format
 > - Saved those graphs in output folder ```./exploratory_analysis```
 
@@ -118,7 +115,7 @@ Data Analysis - 1 - Zipf's Law on summaries column of movie reviews - do the wor
 > - Saved .csv in output folder as "Zipfs_law_review_text.csv"
 > - Plotted word rank and frequency relationship in log-log plot using matplotlib 
 > - Saved it into output folder as .png format 
-	![Zipfs_law_review_summeries](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/Zipfs_law_review_summeries.png )
+	 - ![Zipfs_law_review_summeries](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_1/Zipfs_law_review_summeries.png)
 
 **Observations**
 > - The field that this set of words comes from (movie reviews) is really obvious when looking at the 10 most common words:
@@ -144,13 +141,13 @@ Data Analysis - 2 - Examine the growth of reviews by year, and see if there are 
 > - Create a dataframe containing the year and the number of movie reviews published in that particular year
 > - Defined a function "create_directory_for_output" to create output directory to save output files as .csv and .png format
 > - Plotted a barplot graph using seaborn for Number of reviews per year for last 20 years and saved it to output directory in .png format
-     ![number_of_reviews_per_year_last_20years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/number_of_reviews_per_year_for_last_20years.png )
+     - ![number_of_reviews_per_year_last_20years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/number_of_reviews_per_year_for_last_20years.png)
 > - Saved number of reviews per year into output folder in .csv format
 > - To understand trends of reviews over years, considered linear regression model 
 > - Plotted linear regression output graph and saved into output folder in .png format
-	![linear_regression_moviereviews_years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/linear_regression_for_reviews_over_all_year.png )	
+	 - ![linear_regression_moviereviews_years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/linear_regression_for_reviews_over_all_year.png)	
 > - As this didn't give any significant results, plotted graph again for number of reviews from 2000 onwards with linear regression, saved graph to output folder in .png format
-	![linear_regression_moviereviews_2000_onwards](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/linear_regression_for_reviews_2000_onwards.png )
+	 - ![linear_regression_moviereviews_2000_onwards](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/linear_regression_for_reviews_2000_onwards.png)
 
 **Observations**
 > - There is no linear increment or decrement in number of reviews over the years. 
@@ -179,36 +176,36 @@ Data Analysis - 3 - Chi-square analysis of the distribution of critic's picks: *
 > - Calculated critics pick value overall probability
 > - Defined a function "create_directory_for_output" to create output directory to save output files as .csv and .png format
 > - Plotted a seaborn plot to see true and false critics pick value distribution over years and saved graph in output folder in .png format
-	![critics_pick_value_distribution_over_movie_years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_distribution_over_movie_years.png )
+	![critics_pick_value_distribution_over_movie_years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_distribution_over_movie_years.png)
 > - Saved .csv for year cross tab dataframe in output folder (name of the file: years_cross_tab.csv)
 > - Defined a function to calculate chi-square value, which takes dataframe and critics pick as input and returns observed, expected, chisquare_value, pvalue
 > - Calculated and displayed Chi Square value and p value from it
 > - Created a month cross tab dataframe for number of True and False critic's pick over the months
 > - Plotted a seaborn plot to see true and false critic's pick value distribution over months and saved graph in output folder in .png format
-	![critics_pick_value_distribution_over_movie_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_distribution_over_movie_months.png )
+	![critics_pick_value_distribution_over_movie_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_distribution_over_movie_months.png)
 > - Saved .csv for month cross tab dataframe in output folder( name of the file: month_cross_tab.csv)
 > - Created empty lists to holds observed and expected value counts of critic's pick
 > - Created dataframe to hold months, observed and expected critic's pick value
 > - Saved this dataframe in .csv format in output folder ( name of file: critics_pick_value_over_months_observed_expected.csv)
 > - Plotted the chi square analysis on critic's pick value distribution over month and saved this graph in output folder in .png format
-	![chi_square_analysis_critics_pick_value_by_movie_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/chi_square_analysis_critics_pick_value_by_movie_months.png )
+	![chi_square_analysis_critics_pick_value_by_movie_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/chi_square_analysis_critics_pick_value_by_movie_months.png)
 > - Calculated and displayed Chi Square value and p value from it
 > - To get more insight on analysis plotted a factor plot for observed and expected ctitics pick value over months
-	![chi_square_analysis_critics_pick_value_over_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_month.png )
+	![chi_square_analysis_critics_pick_value_over_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_month.png)
 > - Saved it to output folder as .png (name of file: nested_barplot_critics_pick_by_month.png)
 > - To get more insights to critic pick value distribution plotted factorplots for difeernet year ranes and saved thos as .png
-    ![critics_pick_value_from_1915_to_1933](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1915_to_1933.png )
-	![critics_pick_value_from_1934_to_1948](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1934_to_1948.png )
-	![critics_pick_value_from_1949_to_1963](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1949_to_1963.png )
-	![critics_pick_value_from_1964_to_1978](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1964_to_1978.png )
-	![critics_pick_value_from_1979_to_1993](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1979_to_1993.png )
-	![critics_pick_value_from_1994_to_2008](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1994_to_2008.png )
-	![critics_pick_value_from_2009_to_2017](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_2009_to_2017.png )
+    ![critics_pick_value_from_1915_to_1933](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1915_to_1933.png)
+	![critics_pick_value_from_1934_to_1948](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1934_to_1948.png)
+	![critics_pick_value_from_1949_to_1963](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1949_to_1963.png)
+	![critics_pick_value_from_1964_to_1978](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1964_to_1978.png)
+	![critics_pick_value_from_1979_to_1993](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1979_to_1993.png)
+	![critics_pick_value_from_1994_to_2008](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1994_to_2008.png)
+	![critics_pick_value_from_2009_to_2017](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_2009_to_2017.png)
 
 > - After few observations from a graph divided data into pre 1998 and post 1998 for years and calsulated chi square value in each case
 > - Plotted nested bar plots for pre 1998 and post 1998 to analyse more and saved those as .png file in output folder. Also populated critic pick probability pre 1998 and post 1998
-	![nested_barplot_critics_pick_by_year_pre_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_pre_1998.png )
-	![nested_barplot_critics_pick_by_year_post_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_post_1998.png 
+	![nested_barplot_critics_pick_by_year_pre_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_pre_1998.png)
+	![nested_barplot_critics_pick_by_year_post_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_post_1998.png)
 > - Performed chi square value analysis for pre 1998 years and post 1998 years 
 > - Counted reviews and displayed top 20 critics as well as critics who have written more than 10 reviews
 > - Created normal dataframe for critics
@@ -217,7 +214,7 @@ Data Analysis - 3 - Chi-square analysis of the distribution of critic's picks: *
 > - similary for mpaa rating , created cross tab, calculated chi square and p value
 > - Plotted factorplot to see observed and expected pick value distribution across mpaa rating
 > - Saved output in output folder as .png format
-	![nested_barplot_critics_pick_by_mpaa_rating](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_mpaa_rating.png )
+	![nested_barplot_critics_pick_by_mpaa_rating](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_mpaa_rating.png)
 
 **Observations**
 > - Critic's Pick overall probability is:  0.116275610754, which shows that overall chance that a random movie review from the New York Times had a Critic's   	Pick associated with it is 11.6%, or approximately 1 in 9
