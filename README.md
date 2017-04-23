@@ -145,7 +145,7 @@ Data Analysis - 2 - Examine the growth of reviews by year, and see if there are 
 > - Saved number of reviews per year into output folder in .csv format
 > - To understand trends of reviews over years, considered linear regression model 
 > - Plotted linear regression output graph and saved into output folder in .png format
-	 - ![linear_regression_moviereviews_years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/linear_regression_for_reviews_over_all_year.png)	
+	 - ![linear_regression_moviereviews_years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/linear_regression_for_reviews_over_all_years.png)	
 > - As this didn't give any significant results, plotted graph again for number of reviews from 2000 onwards with linear regression, saved graph to output folder in .png format
 	 - ![linear_regression_moviereviews_2000_onwards](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/linear_regression_for_reviews_2000_onwards.png)
 
