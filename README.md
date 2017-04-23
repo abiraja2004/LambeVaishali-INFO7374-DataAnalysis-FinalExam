@@ -38,7 +38,6 @@ Folder structure and locations for each file
 >  ```final/analysis/ana[1-3]``` contains all the outputs in *.png* format and .csv format for analysis 1, analysis 2 and analysis 3
 >  ```final/exploratory_analysis``` contains graphs plotted for exploratory analysis in .png format
 
-<*P.S. with each analysis there are plots associated with it. Please click on link to view it in other window*>
 -----------
 Collecting and Storing Data
 ------------
