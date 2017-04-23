@@ -41,7 +41,7 @@ Folder structure and locations for each file
 -----------
 Collecting and Storing Data
 ------------
-> - Wrote *.ipynb* file to gather movie reviews data and store it in mentioned directory location.*os.path.join* is used to give a data path to save downloaded JSON files.
+> - Wrote *.ipynb/.py* file to gather movie reviews data and store it in mentioned directory location.*os.path.join* is used to give a data path to save downloaded JSON files.
 > - ```final/data_collection_storage_moviereviews.ipynb and final/data_collection_storage_moviereviews.py``` file is used to hit **moviereviews** API of *New York Times*.  
 > - If directory path is not present it creates the directory path
 
