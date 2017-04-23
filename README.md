@@ -205,8 +205,8 @@ Data Analysis - 3 - Chi-square analysis of the distribution of critic's picks: *
 
 > - After few observations from a graph divided data into pre 1998 and post 1998 for years and calculated chi square value in each case
 > - Plotted nested bar plots for pre 1998 and post 1998 to analyse more and saved those as .png file in output folder. Also populated critic pick probability pre 1998 and post 1998
->	- ![nested_barplot_critics_pick_by_year_pre_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_pre_1998.png)
->	- ![nested_barplot_critics_pick_by_year_post_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_post_1998.png)
+>	- ![nested_barplot_critics_pick_by_year_pre_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/blob/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_pre_1998.png?raw=true)
+>	- ![nested_barplot_critics_pick_by_year_post_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/blob/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_post_1998.png?raw=true)
 > - Performed chi square value analysis for pre 1998 years and post 1998 years 
 > - Counted reviews and displayed top 20 critics as well as critics who have written more than 10 reviews
 > - Created normal dataframe for critics
@@ -215,7 +215,7 @@ Data Analysis - 3 - Chi-square analysis of the distribution of critic's picks: *
 > - similary for mpaa rating , created cross tab, calculated chi square and p value
 > - Plotted factorplot to see observed and expected pick value distribution across mpaa rating
 > - Saved output in output folder as .png format
->	- ![nested_barplot_critics_pick_by_mpaa_rating](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_mpaa_rating.png)
+>	- ![nested_barplot_critics_pick_by_mpaa_rating](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/blob/master/final/analysis/ana_3/nested_barplot_critics_pick_by_mpaa_rating.png?raw=true)
 
 **Observations**
 > - Critic's Pick overall probability is:  0.116275610754, which shows that overall chance that a random movie review from the New York Times had a Critic's   	Pick associated with it is 11.6%, or approximately 1 in 9
