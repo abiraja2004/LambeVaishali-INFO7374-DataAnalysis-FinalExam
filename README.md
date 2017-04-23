@@ -88,8 +88,9 @@ Cleaning, Storing Data (in .csv format) and Data Exploration
 > - Used describe() to check values inside each column
 > - Displayed value counts for critics pick, mpaa rating , movie month , movie year
 > - Checked number of null values present in dataframe (found that date_updated, summary_short, opening_date has some null values. We handle those if we require those columns during analysis. As of now it is fine)
-> - Plotted graphs for mpaa_rating, critics_pick and publication date of reviews 
-![Distribution_of_mpaa_rating1](https://raw.github.com/vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating1.png "Distribution_of_mpaa_rating1")
+> - Plotted graphs for mpaa_rating, critics_pick and publication date of reviews
+**Plots**
+![Distribution_of_mpaa_rating1](https://github.com/vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating1.png) 
 >     - ![Distribution_of_mpaa_rating1](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating1.png)
 >	 - ![Distribution_of_mpaa_rating2](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/Distribution_of_mpaa_rating2.png)
 >	 - ![critic_pick_value_count](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/exploratory_analysis/critic_pick_value_count.png)
