@@ -308,7 +308,7 @@ Instructions to run .py files
 ------------
 > - Go to directory where .py file is pressent on any git bash/terminal shell
 > - Run below command
->	- *python<space><filename>.py <hit enter>*
+>	- *python<*space*><*filename*>.py <*hit enter*>*
 >	- e.g. python ana_1.py
 
 -----------
