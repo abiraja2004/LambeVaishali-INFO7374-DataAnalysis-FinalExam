@@ -14,7 +14,7 @@ Folder structure and locations for each file
 
 > - Raw data storage location:
 >  ```final/data/raw_data/movie_reviews``` contains all JSON files for movie_reviews
->   - P.S. as movie_reviews directory on git hub has limitation and only accomodate 1000 JSON files, uploaded zip file for raw_data as well
+>   - P.S. as movie_reviews directory on git hub has limitation and only accomodate 1000 JSON files, hence uploaded zip file as well for raw_data.So you find 1000 .JSON files inside movie_reviews folder and to get all the 1345 JSON files you need .zip folder of raw_data
 
 > - Data cleaning and storing script file location:
 >  ```final/data_cleaning_exploration_moviereviews.ipynb and final/data_cleaning_exploration_moviereviews.py``` script for cleaning data and storing it in .csv format. Also perform some exploratory analysis on cleaned data to verify
