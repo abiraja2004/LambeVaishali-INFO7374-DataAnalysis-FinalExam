@@ -117,7 +117,7 @@ Data Analysis - 1 - Zipf's Law on summaries column of movie reviews - do the wor
 > - Saved .csv in output folder as "Zipfs_law_review_text.csv"
 > - Plotted word rank and frequency relationship in log-log plot using matplotlib 
 > - Saved it into output folder as .png format 
-	 - ![Zipfs_law_review_summeries](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_1/Zipfs_law_review_summeries.png)
+>	 - ![Zipfs_law_review_summeries](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_1/Zipfs_law_review_summeries.png)
 
 **Observations**
 > - The field that this set of words comes from (movie reviews) is really obvious when looking at the 10 most common words:
@@ -143,13 +143,13 @@ Data Analysis - 2 - Examine the growth of reviews by year, and see if there are 
 > - Create a dataframe containing the year and the number of movie reviews published in that particular year
 > - Defined a function "create_directory_for_output" to create output directory to save output files as .csv and .png format
 > - Plotted a barplot graph using seaborn for Number of reviews per year for last 20 years and saved it to output directory in .png format
-     - ![number_of_reviews_per_year_last_20years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/number_of_reviews_per_year_for_last_20years.png)
+>    - ![number_of_reviews_per_year_last_20years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/number_of_reviews_per_year_for_last_20years.png)
 > - Saved number of reviews per year into output folder in .csv format
 > - To understand trends of reviews over years, considered linear regression model 
 > - Plotted linear regression output graph and saved into output folder in .png format
-	 - ![linear_regression_moviereviews_years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/linear_regression_for_reviews_over_all_years.png)	
+>	 - ![linear_regression_moviereviews_years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/linear_regression_for_reviews_over_all_years.png)	
 > - As this didn't give any significant results, plotted graph again for number of reviews from 2000 onwards with linear regression, saved graph to output folder in .png format
-	 - ![linear_regression_moviereviews_2000_onwards](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/linear_regression_for_reviews_2000_onwards.png)
+>	 - ![linear_regression_moviereviews_2000_onwards](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_2/linear_regression_for_reviews_2000_onwards.png)
 
 **Observations**
 > - There is no linear increment or decrement in number of reviews over the years. 
@@ -178,36 +178,36 @@ Data Analysis - 3 - Chi-square analysis of the distribution of critic's picks: *
 > - Calculated critics pick value overall probability
 > - Defined a function "create_directory_for_output" to create output directory to save output files as .csv and .png format
 > - Plotted a seaborn plot to see true and false critics pick value distribution over years and saved graph in output folder in .png format
-	![critics_pick_value_distribution_over_movie_years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_distribution_over_movie_years.png)
+>	- ![critics_pick_value_distribution_over_movie_years](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_distribution_over_movie_years.png)
 > - Saved .csv for year cross tab dataframe in output folder (name of the file: years_cross_tab.csv)
 > - Defined a function to calculate chi-square value, which takes dataframe and critics pick as input and returns observed, expected, chisquare_value, pvalue
 > - Calculated and displayed Chi Square value and p value from it
 > - Created a month cross tab dataframe for number of True and False critic's pick over the months
 > - Plotted a seaborn plot to see true and false critic's pick value distribution over months and saved graph in output folder in .png format
-	![critics_pick_value_distribution_over_movie_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_distribution_over_movie_months.png)
+>	- ![critics_pick_value_distribution_over_movie_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_distribution_over_movie_months.png)
 > - Saved .csv for month cross tab dataframe in output folder( name of the file: month_cross_tab.csv)
 > - Created empty lists to holds observed and expected value counts of critic's pick
 > - Created dataframe to hold months, observed and expected critic's pick value
 > - Saved this dataframe in .csv format in output folder ( name of file: critics_pick_value_over_months_observed_expected.csv)
 > - Plotted the chi square analysis on critic's pick value distribution over month and saved this graph in output folder in .png format
-	![chi_square_analysis_critics_pick_value_by_movie_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/chi_square_analysis_critics_pick_value_by_movie_months.png)
+>	- ![chi_square_analysis_critics_pick_value_by_movie_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/chi_square_analysis_critics_pick_value_by_movie_months.png)
 > - Calculated and displayed Chi Square value and p value from it
 > - To get more insight on analysis plotted a factor plot for observed and expected ctitics pick value over months
-	![chi_square_analysis_critics_pick_value_over_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_month.png)
+>	- ![chi_square_analysis_critics_pick_value_over_months](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_month.png)
 > - Saved it to output folder as .png (name of file: nested_barplot_critics_pick_by_month.png)
 > - To get more insights to critic pick value distribution plotted factorplots for differnet year ranges and saved those as .png
-    ![critics_pick_value_from_1915_to_1933](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1915_to_1933.png)
-	![critics_pick_value_from_1934_to_1948](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1934_to_1948.png)
-	![critics_pick_value_from_1949_to_1963](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1949_to_1963.png)
-	![critics_pick_value_from_1964_to_1978](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1964_to_1978.png)
-	![critics_pick_value_from_1979_to_1993](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1979_to_1993.png)
-	![critics_pick_value_from_1994_to_2008](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1994_to_2008.png)
-	![critics_pick_value_from_2009_to_2017](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_2009_to_2017.png)
+>    - ![critics_pick_value_from_1915_to_1933](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1915_to_1933.png)
+>	- ![critics_pick_value_from_1934_to_1948](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1934_to_1948.png)
+>	- ![critics_pick_value_from_1949_to_1963](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1949_to_1963.png)
+>	- ![critics_pick_value_from_1964_to_1978](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1964_to_1978.png)
+>	- ![critics_pick_value_from_1979_to_1993](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1979_to_1993.png)
+>	- ![critics_pick_value_from_1994_to_2008](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_1994_to_2008.png)
+>	- ![critics_pick_value_from_2009_to_2017](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/critics_pick_value_from_2009_to_2017.png)
 
 > - After few observations from a graph divided data into pre 1998 and post 1998 for years and calculated chi square value in each case
 > - Plotted nested bar plots for pre 1998 and post 1998 to analyse more and saved those as .png file in output folder. Also populated critic pick probability pre 1998 and post 1998
-	![nested_barplot_critics_pick_by_year_pre_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_pre_1998.png)
-	![nested_barplot_critics_pick_by_year_post_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_post_1998.png)
+>	- ![nested_barplot_critics_pick_by_year_pre_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_pre_1998.png)
+>	- ![nested_barplot_critics_pick_by_year_post_1998](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_year_post_1998.png)
 > - Performed chi square value analysis for pre 1998 years and post 1998 years 
 > - Counted reviews and displayed top 20 critics as well as critics who have written more than 10 reviews
 > - Created normal dataframe for critics
@@ -216,7 +216,7 @@ Data Analysis - 3 - Chi-square analysis of the distribution of critic's picks: *
 > - similary for mpaa rating , created cross tab, calculated chi square and p value
 > - Plotted factorplot to see observed and expected pick value distribution across mpaa rating
 > - Saved output in output folder as .png format
-	![nested_barplot_critics_pick_by_mpaa_rating](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_mpaa_rating.png)
+>	- ![nested_barplot_critics_pick_by_mpaa_rating](https://github.com//vaishalilambe/LambeVaishali-INFO7374-DataAnalysis-FinalExam/tree/master/final/analysis/ana_3/nested_barplot_critics_pick_by_mpaa_rating.png)
 
 **Observations**
 > - Critic's Pick overall probability is:  0.116275610754, which shows that overall chance that a random movie review from the New York Times had a Critic's   	Pick associated with it is 11.6%, or approximately 1 in 9
@@ -308,8 +308,8 @@ Instructions to run .py files
 ------------
 > - Go to directory where .py file is pressent on any git bash/terminal shell
 > - Run below command
-	python<space><filename>.py <hit enter>
-	e.g. python ana_1.py
+>	- *python<space><filename>.py <hit enter>*
+>	- e.g. python ana_1.py
 
 -----------
 Glossary of some important terms used
