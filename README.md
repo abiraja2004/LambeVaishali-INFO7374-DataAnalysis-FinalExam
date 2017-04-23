@@ -38,7 +38,7 @@ Folder structure and locations for each file
 >  ```final/analysis/ana[1-3]``` contains all the outputs in *.png* format and .csv format for analysis 1, analysis 2 and analysis 3
 >  ```final/exploratory_analysis``` contains graphs plotted for exploratory analysis in .png format
 
-
+<*P.S. with each analysis there are plots associated with it. Please click on link to view it in other window*>
 -----------
 Collecting and Storing Data
 ------------
@@ -96,7 +96,6 @@ Cleaning, Storing Data (in .csv format) and Data Exploration
 > - Defined a function "create_directory_for_output" to create output directory to save output files in .png format
 > - Saved those graphs in output folder ```./exploratory_analysis```
 
-<*P.S. with each analysis there are plots associated with it. Please click on link to view it in other window*>
 -----------
 Data Analysis - 1 - Zipf's Law on summaries column of movie reviews - do the words used there follow Zipf's Law?
 ------------
