@@ -14,7 +14,7 @@ Folder structure and locations for each file
 
 > - Raw data storage location:
 >  ```final/data/raw_data/movie_reviews``` contains all JSON files for movie_reviews
-     - P.S. as movie_reviews directory on git hub has limitation and only accomodate 1000 JSON files, uploaded zip file for raw_data as well
+>   - P.S. as movie_reviews directory on git hub has limitation and only accomodate 1000 JSON files, uploaded zip file for raw_data as well
 
 > - Data cleaning and storing script file location:
 >  ```final/data_cleaning_exploration_moviereviews.ipynb and final/data_cleaning_exploration_moviereviews.py``` script for cleaning data and storing it in .csv format. Also perform some exploratory analysis on cleaned data to verify
@@ -57,7 +57,7 @@ Collecting and Storing Data
 > - Defined function '''get_movie_reviews_params''' which returns API and offset
 > - Defined function '''resolve_movie_reviews''' for getting the result of movie reviews search
 > - Provided check condition again to check if movie has more reviews so avoid the rate limit and sleep again to download it completely.
-> - P.S movie_reviews_30000.json, movie_reviews_28000.json and movie_reviews_35000.json has only 1KB data so ommited those files from raw data
+> - P.S.movie_reviews_30000.json, movie_reviews_28000.json and movie_reviews_35000.json has only 1KB data, not useful for analysis so ommited those files from raw data
 
 
 -----------
